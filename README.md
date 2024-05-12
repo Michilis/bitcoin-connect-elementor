@@ -2,53 +2,56 @@
 
 Bitcoin Connect Elementor Widgets
 Description
-Bitcoin Connect Elementor Widgets is a WordPress plugin that integrates Bitcoin Connect wallet functionality with the Elementor page builder. This plugin provides two widgets: one for connecting a Bitcoin wallet and another for a specific action called "Zap Mint." Additionally, it includes an admin settings page for further configuration.
+Bitcoin Connect Elementor Widgets is a WordPress plugin that integrates Bitcoin Connect wallet functionality with the Elementor page builder. This plugin provides users with two widgets:
+
+Bitcoin Connect Widget: Enables users to connect their Bitcoin wallet directly from your website without any extensions.
+Zap Mint Widget: Offers a button for specific blockchain actions, like "Zapping."
+It also includes an admin settings page for configuring the plugin to your needs.
 
 Features
-Bitcoin Connect Widget: Allows users to connect their Bitcoin wallet directly from your website without needing any extensions.
-Zap Mint Widget: Offers a quick action button for specific functionalities like "Zapping" within the context of blockchain and cryptocurrencies.
-Admin Settings: Configure which post types include the widgets and manage other settings such as redirection after login or logout.
+Bitcoin Connect Wallet Login: Allows users to connect their Bitcoin wallet and authenticate.
+Zap Mint Action: Provides a quick action button for blockchain-related operations.
+Admin Settings Page: Configure settings like post type inclusion and redirect URLs post-login/logout.
 Installation
+Follow these steps to install and activate the plugin:
+
 Download the Plugin:
 
-Download the zip file from the GitHub repository or wherever it has been hosted.
+Download the zip file from the GitHub repository or from the provided download link.
 Install the Plugin:
 
-Go to your WordPress dashboard.
-Navigate to Plugins > Add New.
-Click Upload Plugin and choose the downloaded zip file.
-Activate the plugin after the installation completes.
+Navigate to your WordPress dashboard.
+Go to Plugins > Add New.
+Click Upload Plugin, then select the downloaded zip file.
+Click Install Now, and activate the plugin after installation.
 Configure the Plugin:
 
-After activation, go to the settings page located under the admin settings menu to configure the plugin.
-Adjust settings such as which post types should show the widgets and set up redirection links.
+Visit the plugin settings page in the WordPress admin area to adjust settings such as which post types should show the widgets and setup redirection links.
 Usage
-Elementor Widgets:
-
-Open the Elementor editor by creating a new page or editing an existing one.
-Drag and drop the "Bitcoin Connect" or "Zap Mint" widget onto the page.
-Configure the widget options like button text directly within the Elementor interface.
-Admin Settings:
-
-Go to the Bitcoin Connect settings in the WordPress admin to customize the plugin functionality.
-Set post types that will display the widgets and configure redirection URLs after wallet connections.
+Elementor Widgets
+Open the Elementor editor by either creating a new page or editing an existing one.
+Drag and drop the "Bitcoin Connect" or "Zap Mint" widget from the Elementor sidebar into your page layout.
+Customize the widget options, such as the button text, directly within the Elementor interface.
+Admin Settings
+Adjust plugin functionalities via the Bitcoin Connect settings found in the WordPress admin.
+Configure which post types display the widgets and manage redirection URLs for after wallet connections.
 Customization
-Modify the styles of the widgets by editing the assets/css/btc-connect-style.css file.
-Extend the JavaScript functionality by adjusting the assets/js/btc-connect-init.js file.
+CSS Customization: Edit the assets/css/btc-connect-style.css to modify the appearance of the widgets.
+JavaScript Functionality: Enhance or modify the JavaScript by editing assets/js/btc-connect-init.js.
 Requirements
-WordPress 5.0 or higher
-Elementor Page Builder
+WordPress: Version 5.0 or higher.
+Elementor: Must be installed and activated.
 Contributing
-Contributions are welcome! Please fork the repository and submit pull requests with any enhancements, bug fixes, or improvements.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Fork it!
-Create your feature branch: git checkout -b my-new-feature
-Commit your changes: git commit -am 'Add some feature'
-Push to the branch: git push origin my-new-feature
-Submit a pull request.
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
 License
-This project is licensed under the GNU General Public License v2.0.
+Distributed under the GNU General Public License v2.0. See LICENSE for more information.
 
 Support
-For support, please open an issue through the GitHub repository or contact the developer directly via [your contact information].
+For support, please open an issue through the GitHub repository or contact the developer directly via [Your Contact Information].
 
